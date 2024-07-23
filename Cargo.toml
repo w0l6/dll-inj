@@ -1,0 +1,10 @@
+[package]
+name = "rust-inj"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = ["winbase", "psapi", "handleapi", "libloaderapi", "debugapi", "processthreadsapi", "winnt", "memoryapi", "synchapi", "ntdef"] }
+eframe = "0.20"
+egui = "0.20" 
+rfd = "0.12"
